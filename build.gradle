@@ -9,6 +9,8 @@ repositories {
 
 dependencies {
 	testImplementation group: 'junit', name: 'junit', version: '4.13.1'
+	testImplementation 'io.quarkus:quarkus-junit5:2.14.2.Final'
+	testImplementation 'org.assertj:assertj-core:3.23.1'
 }
 
 java {
