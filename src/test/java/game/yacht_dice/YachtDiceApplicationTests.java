@@ -1,6 +1,6 @@
 package game.yacht_dice;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 class YachtDiceApplicationTests {
 

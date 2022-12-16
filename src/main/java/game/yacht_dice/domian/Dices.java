@@ -12,7 +12,7 @@ public class Dices {
     public Dices() {
         this.numbers = new ArrayList<>();
         for (int i = 0; i < 5; i++) {
-            int number = random.nextInt(6);
+            int number = random.nextInt(6) + 1;
             this.numbers.add(number);
             dicesSort();
         }
@@ -24,7 +24,7 @@ public class Dices {
 
     public void reRoll(int... index) {
         for (int i : index) {
-            int number = random.nextInt(6);
+            int number = random.nextInt(6) + 1;
             this.numbers.set(i, number);
         }
     }
